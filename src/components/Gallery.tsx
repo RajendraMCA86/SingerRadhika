@@ -4,29 +4,29 @@ const GallerySection = () => {
       id: 1,
       image:
         "./public/assets/gallery1.jpg",
-      title: "Live Performance",
-      description:"Live at the location of the event",
+      title: "Honored",
+      description:"Live midnight Bhajan Sandhya for Shree Kkatu shyam ji",
     },
     {
       id: 2,
       image:
         "./public/assets/galery2.jpg",
-      title: "Studio Session",
-      description:"During the studio training and street shows",
+      title: "Stage Song",
+      description:"On stage performance for shree krishna janmasthami",
     },
     {
       id: 3,
       image:
         "./public/assets/gallery3.jpg",
-      title: "Behind Scenes",
-      description:"Behind the scenes on live concert",
+      title: "Honor of Guest",
+      description:"Baba Mahankal Shahi Sawari ",
     },
     {
       id: 4,
       image:
         "./public/assets/gallery4.jpg",
-      title: "On Stage",
-      description:"Capturing the moment on stage live performance"
+      title: "Practice session",
+      description:"Capturing the moments during practice in early days"
     },
   ];
 
@@ -45,7 +45,7 @@ const GallerySection = () => {
               <img
                 src={item.image}
                 alt={item.title}
-                className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
+                className="w-full h-84 object-scale-down transition-transform duration-500 "
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-4 left-4">

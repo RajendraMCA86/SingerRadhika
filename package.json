@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Just-vikas91.github.io/Music-Folio-fork",
+  "homepage": "https://github.com/Just-vikas91/SingerRadhika",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -20,6 +20,7 @@
     "axios": "^1.11.0",
     "date-fns": "^4.1.0",
     "docker": "^1.0.0",
+    "firebase": "^12.2.1",
     "framer-motion": "^12.23.12",
     "lucide-react": "^0.541.0",
     "react": "^19.1.1",

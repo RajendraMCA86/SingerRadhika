@@ -15,8 +15,8 @@ const Footer = () => {
         </div>
 
         {/* Contact Grid */}
-        <div className="grid md:grid-cols-3 gap-8 mb-12 text-center">
-          <div>
+        <div className="grid md:grid-cols-3 gap-8 mb-12 text-center ">
+          <div  >
             <h3 className="text-white font-semibold mb-2">Management</h3>
             <a href="mailto:hr@kvstechflow.com" className="text-gray-400">hr@kvstechflow.com</a>
           </div>
@@ -24,6 +24,11 @@ const Footer = () => {
             <h3 className="text-white font-semibold mb-2">General</h3>
             <a href="mailto:radhika311014@gmail.com"
               className="text-gray-400">radhika311014@gmail.com</a>
+          </div>
+          <div>
+            <h3 className="text-white font-semibold mb-2">Enuiry</h3>
+            <a href="tel:+91 8458829844"
+              className="text-gray-400">+91 8458829844</a>
           </div>
         </div>
 
@@ -46,7 +51,7 @@ const Footer = () => {
             <Twitter className="w-6 h-6 text-blue-400 hover:scale-130 transition-transform duration-300" />
           </a> */}
           <a
-            href="https://facebook.com/"
+            href="https://www.facebook.com/radhika.shyam.premi.chouhan"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Facebook"
@@ -54,7 +59,7 @@ const Footer = () => {
             <Facebook className="w-6 h-6 text-blue-600 hover:scale-130 transition-transform duration-300" />
           </a>
           <a
-            href="https://youtube.com/"
+            href="https://www.youtube.com/@radhikachouhanrao"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="YouTube"
