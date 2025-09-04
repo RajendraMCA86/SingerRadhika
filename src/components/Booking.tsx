@@ -84,7 +84,7 @@ const BookingPage = () => {
         {/* Mobile Image */}
         <div className="md:hidden flex justify-center mb-2">
           <img
-            src="https://wallpapers.com/images/high/arijit-singh-on-live-concert-x0d4ij6s2fuxbvg5.webp"
+            src="./assets/about.jpg"
             alt="singer"
             className="w-24 h-24 rounded-full object-cover border-4 border-gray-900 shadow-lg"
           />
