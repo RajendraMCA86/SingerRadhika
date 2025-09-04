@@ -1,9 +1,9 @@
 {
-  "name": "musicfolio",
+  "name": "singerradhika",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/Just-vikas91/SingerRadhika",
+  "homepage": "https://github.com/Just-vikas91.github.io/SingerRadhika",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

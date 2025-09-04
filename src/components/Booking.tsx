@@ -198,7 +198,7 @@ const BookingPage = () => {
         {/* Desktop Image */}
         <div className="hidden md:flex w-xl h-auto object-cover">
           <img
-            src="./public/assets/galery2.jpg"
+            src="./assets/galery2.jpg"
             alt="singers portrait"
             className="rounded-2xl shadow-lg object-cover"
           />

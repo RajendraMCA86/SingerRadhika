@@ -3,28 +3,28 @@ const GallerySection = () => {
     {
       id: 1,
       image:
-        "./public/assets/gallery1.jpg",
+        "./assets/gallery1.jpg",
       title: "Honored",
       description:"Live midnight Bhajan Sandhya for Shree Kkatu shyam ji",
     },
     {
       id: 2,
       image:
-        "./public/assets/galery2.jpg",
+        "./assets/galery2.jpg",
       title: "Stage Song",
       description:"On stage performance for shree krishna janmasthami",
     },
     {
       id: 3,
       image:
-        "./public/assets/gallery3.jpg",
+        "./assets/gallery3.jpg",
       title: "Honor of Guest",
       description:"Baba Mahankal Shahi Sawari ",
     },
     {
       id: 4,
       image:
-        "./public/assets/gallery4.jpg",
+        "./assets/gallery4.jpg",
       title: "Practice session",
       description:"Capturing the moments during practice in early days"
     },

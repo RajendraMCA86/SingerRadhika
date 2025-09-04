@@ -52,7 +52,7 @@ const AboutSection: React.FC = () => {
                   {
                     action: () =>
                       window.open(
-                        "https://www.facebook.com/OriyonMusicByArijitSingh",
+                        "https://www.facebook.com/radhika.shyam.premi.chouhan",
                         "_blank"
                       ),
                     icon: <Facebook />,

@@ -1,4 +1,4 @@
-import { Youtube, Twitter, Instagram, Facebook } from "lucide-react";
+import { Youtube, Instagram, Facebook } from "lucide-react";
 
 const Footer = () => {
   return (
