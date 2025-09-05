@@ -1,4 +1,5 @@
 import { Phone, Instagram, Facebook, Youtube } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function TopBanner() {
   return (
@@ -23,6 +24,9 @@ export default function TopBanner() {
           </a>
           <a href="https://www.youtube.com/@radhikachouhanrao" target="_blank" className="hover:text-red-400 transition">
             <Youtube size={18} />
+          </a>
+          <a href="https://wa.me/+918458829844?text=Hi%20there!%20I%20want%20to%20know%20more." target="_blank" className="hover:text-green-500 transition">
+            <FaWhatsapp size={20} />
           </a>
         </div>
       </div>

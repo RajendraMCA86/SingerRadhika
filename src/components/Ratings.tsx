@@ -9,10 +9,34 @@ interface Rating {
   date: string;
 }
 
+// Default static reviews (will always be there)
+const staticReviews: Rating[] = [
+  {
+    name: "Ananya Sharma",
+    stars: 5,
+    text: "Her devotional voice is truly soul-touching. Every performance is magical!",
+    date: "2024-08-12"
+  },
+  {
+    name: "Ravi Kumar",
+    stars: 4,
+    text: "Amazing singer, her live performance created a divine atmosphere.",
+    date: "2024-09-01"
+  },
+  {
+    name: "Meera Joshi",
+    stars: 5,
+    text: "Very talented and passionate. Our event was unforgettable thanks to her!",
+    date: "2024-09-20"
+  }
+];
+
 const RatingSection: React.FC = () => {
   const [ratings, setRatings] = useState<Rating[]>(() => {
     const stored = localStorage.getItem('reviews');
-    return stored ? JSON.parse(stored) : [];
+    const storedReviews = stored ? JSON.parse(stored) : [];
+    // return stored ? JSON.parse(stored) : [];
+    return [...staticReviews, ...storedReviews];
   });
 
   const [formData, setFormData] = useState({

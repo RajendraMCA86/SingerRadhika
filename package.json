@@ -1,9 +1,8 @@
 {
-  "name": "musicfolio",
+  "name": "singerradhika",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Just-vikas91.github.io/Music-Folio-fork",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -20,12 +19,15 @@
     "axios": "^1.11.0",
     "date-fns": "^4.1.0",
     "docker": "^1.0.0",
+    "firebase": "^12.2.1",
     "framer-motion": "^12.23.12",
     "lucide-react": "^0.541.0",
     "react": "^19.1.1",
     "react-datepicker": "^8.7.0",
     "react-dom": "^19.1.1",
     "react-hot-toast": "^2.6.0",
+    "react-icon": "^1.0.0",
+    "react-icons": "^5.5.0",
     "sweetalert2": "^11.22.5"
   },
   "devDependencies": {
