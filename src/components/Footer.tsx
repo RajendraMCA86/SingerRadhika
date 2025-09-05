@@ -1,4 +1,5 @@
 import { Youtube, Instagram, Facebook } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -16,19 +17,23 @@ const Footer = () => {
 
         {/* Contact Grid */}
         <div className="grid md:grid-cols-3 gap-8 mb-12 text-center ">
-          <div  >
+          <div>
             <h3 className="text-white font-semibold mb-2">Management</h3>
-            <a href="mailto:hr@kvstechflow.com" className="text-gray-400">hr@kvstechflow.com</a>
+            <a href="mailto:hr@kvstechflow.com" className="text-gray-400">
+              hr@kvstechflow.com
+            </a>
           </div>
           <div>
             <h3 className="text-white font-semibold mb-2">General</h3>
-            <a href="mailto:radhika311014@gmail.com"
-              className="text-gray-400">radhika311014@gmail.com</a>
+            <a href="mailto:radhika311014@gmail.com" className="text-gray-400">
+              radhika311014@gmail.com
+            </a>
           </div>
           <div>
             <h3 className="text-white font-semibold mb-2">Enuiry</h3>
-            <a href="tel:+91 8458829844"
-              className="text-gray-400">+91 8458829844</a>
+            <a href="tel:+91 8458829844" className="text-gray-400">
+              +91 8458829844
+            </a>
           </div>
         </div>
 
@@ -42,14 +47,6 @@ const Footer = () => {
           >
             <Instagram className="w-6 h-6 text-pink-500 hover:scale-130 transition-transform duration-300 " />
           </a>
-          {/* <a
-            href="https://twitter.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Twitter"
-          >
-            <Twitter className="w-6 h-6 text-blue-400 hover:scale-130 transition-transform duration-300" />
-          </a> */}
           <a
             href="https://www.facebook.com/radhika.shyam.premi.chouhan"
             target="_blank"
@@ -66,14 +63,24 @@ const Footer = () => {
           >
             <Youtube className="w-6 h-6 text-red-500 hover:scale-130 transition-transform duration-300" />
           </a>
+          <a
+            href="https://wa.me/+918458829844?text=Hi%20there!%20I%20want%20to%20know%20more."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-6 h-5 text-green-500 rounded-full hover:scale-130 transition-transform duration-300"
+          >
+            <FaWhatsapp size={28} />
+          </a>
         </div>
 
         {/* Branding & Copyright */}
         <div className="text-center border-t border-gray-700 pt-6">
           <a href="https://kvstechflow.com/" target="_blank">
             <p className="text-sm text-gray-500">
-              © 2025 <span className="font-semibold">KVSTECHFLOW</span>. All rights reserved.
-            </p></a>
+              © 2025 <span className="font-semibold">KVSTECHFLOW</span>. All
+              rights reserved.
+            </p>
+          </a>
         </div>
       </div>
     </footer>

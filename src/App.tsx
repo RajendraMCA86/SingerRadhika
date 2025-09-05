@@ -7,6 +7,7 @@ import Bookingpage from "./components/Booking";
 import RatingSection from "./components/Ratings";
 import VideoPlayer from "./components/VideoPlayer";
 import TopBanner  from "./components/TopBanner";
+import WhatsAppButton from "./button/WhatsAppButton";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <VideoPlayer/>
       <RatingSection />
       <Bookingpage/>
+      <WhatsAppButton/>
       <Footer/>
     </div>
     </>
